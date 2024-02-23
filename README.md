@@ -6,7 +6,12 @@ underwent meta-data curation and harmonisation, data quality check, and pre-proc
 across the datasets. In addition, for every study included in this data release we provide tables of differentially expressed genes and co-expression network models of IPF samples and healthy counterparts deriving from 
 both RNA-seq and DNA microarrays.
 
+
 ###Explanations for the codes###
+
+The raw data files of RNA-seq (.fastq) files have been downloaded from European Nucleotide Archive (ENA) and the raw data files DNA microarray (.CEL and .txt files) were retrieved from GEO using GEOquery.
+
+The pipeline goes in the following order below.
 
 1. fastqc.sh
 
@@ -50,3 +55,5 @@ both RNA-seq and DNA microarrays.
 11. build_networks.R
     
     -Network inference code for the batch adjusted combined matrices
+
+All the preprocessed transcriptomics data, along with harmonised meta-data and networks, were submitted to Zenodo: https://doi.org/10.5281/zenodo.10692129.

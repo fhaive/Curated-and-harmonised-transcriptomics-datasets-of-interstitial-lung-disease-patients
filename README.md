@@ -9,7 +9,9 @@ both RNA-seq and DNA microarrays.
 
 ###Explanations for the codes###
 
-The raw data files of RNA-seq (.fastq) files have been downloaded from European Nucleotide Archive (ENA) and the raw data files DNA microarray (.CEL and .txt files) were retrieved from GEO using GEOquery.
+The raw data files of RNA-seq (.fastq) files have been downloaded from European Nucleotide Archive (ENA) and the raw data files DNA microarray (.CEL and .txt files) were retrieved from GEO using GEOquery. 
+The meta-data curation was performed with ESPERANTO software: https://github.com/fhaive/esperanto. 
+The normalization and DEG-analysis of the microarray datasets was performed with eUTOPIA softwre https://github.com/Greco-Lab/eUTOPIA.
 
 The pipeline goes in the following order below.
 

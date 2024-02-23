@@ -1,5 +1,7 @@
 # Curated-and-harmonised-transcriptomics-datasets-of-interstitial-lung-disease-patients
 
+This code refers to the data preprocessing done for the datasets published into: https://doi.org/10.5281/zenodo.10692129
+
 The code uploaded within this repository contains the processing code of the datatests of interstitial lung disease patients retrieved from the NCBI Gene Expression Omnibus and European Nucleotide Archive (ENA) 
 repositories. Overall, we retrieved 30 transcriptomics datasets, produced through both DNA microarrays and RNA-Sequencing technologies, along with relative meta-data tables. After data collection, all the datasets 
 underwent meta-data curation and harmonisation, data quality check, and pre-processing with standardised procedures. Beside, data model was created in order to homogenise the phenotypic data enabling the comparability 
@@ -59,4 +61,3 @@ The pipeline goes in the following order below.
     
     -Network inference code for the batch adjusted combined matrices
 
-All the preprocessed transcriptomics data, along with harmonised meta-data and networks, were submitted to Zenodo: https://doi.org/10.5281/zenodo.10692129.

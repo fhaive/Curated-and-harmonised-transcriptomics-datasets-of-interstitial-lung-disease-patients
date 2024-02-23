@@ -41,4 +41,4 @@
 	-Pamr batch adjustment code for the combined matrices
 
 9. build_networks.R
-	- Network inference code for the batch adjusted combined matrices
+	-Network inference code for the batch adjusted combined matrices

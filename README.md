@@ -1,8 +1,6 @@
 # Curated-and-harmonised-transcriptomics-datasets-of-interstitial-lung-disease-patients
 
-#################################################################################
-#######Explanations for the codes#####################################################
-##################################################################################
+###Explanations for the codes###
 
 1. fastqc.sh
 

@@ -15,14 +15,14 @@
 	-Hisat2 alignment. hisat2_launch for paired end data and launch_hisat2_single for single end data
 
 4. uniq_sort.sh
+  
+   -Creates a BAM file with the unique reads and sorts the unique reads. 
 
-	- Creates a BAM file with the unique reads and sorts the unique reads. 
-
-5. featurecounts.R
+7. featurecounts.R
 
 	-Transcript quantification
 
-6. Contents in expression_matrices_and_DEG_result -folder
+8. Contents in expression_matrices_and_DEG_result -folder
 	
 	-Microarray
 		-Contains the probe annotation codes for the microarray datasets. Annotations are for ensembl gene id:s and gene Symbols. 
@@ -34,13 +34,13 @@
 		differential gene expression analysis with deseq2. The R programming required substantial manual effort, largely due to the inherent characteristics 
 		of the public data. As a precautionary  measure to ensure the accuracy of each step in the analytical process, the analysis included significant redundancy.
 
-7. Contents of combined_matrices -folder
+9. Contents of combined_matrices -folder
 	-Contains the code for combining the expression matrices for ipf and healthy samples for each cell type and tissue and RNA-seq and Microarray.
 
-8. multi_studies_adjust.R
+10. multi_studies_adjust.R
    
 	-Pamr batch adjustment code for the combined matrices
 
-10. build_networks.R
+11. build_networks.R
     
     -Network inference code for the batch adjusted combined matrices

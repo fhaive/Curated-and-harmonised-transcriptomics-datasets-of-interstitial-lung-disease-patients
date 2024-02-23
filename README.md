@@ -14,7 +14,7 @@ The normalization and DEG-analysis of the microarray datasets was performed with
 
 ###Explanations for the codes###
 
-The pipeline goes in the following order below.
+The pipeline goes in the following order below:
 
 1. fastqc.sh
 

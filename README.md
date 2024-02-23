@@ -8,12 +8,11 @@ underwent meta-data curation and harmonisation, data quality check, and pre-proc
 across the datasets. In addition, for every study included in this data release we provide tables of differentially expressed genes and co-expression network models of IPF samples and healthy counterparts deriving from 
 both RNA-seq and DNA microarrays.
 
-
-###Explanations for the codes###
-
 The raw data files of RNA-seq (.fastq) files have been downloaded from European Nucleotide Archive (ENA) and the raw data files DNA microarray (.CEL and .txt files) were retrieved from GEO using GEOquery. 
 The meta-data curation was performed with ESPERANTO software: https://github.com/fhaive/esperanto. 
 The normalization and DEG-analysis of the microarray datasets was performed with eUTOPIA softwre https://github.com/Greco-Lab/eUTOPIA.
+
+###Explanations for the codes###
 
 The pipeline goes in the following order below.
 

@@ -1,5 +1,11 @@
 # Curated-and-harmonised-transcriptomics-datasets-of-interstitial-lung-disease-patients
 
+The code uploaded within this repository contains the processing code of the datatests of interstitial lung disease patients retrieved from the NCBI Gene Expression Omnibus and European Nucleotide Archive (ENA) 
+repositories. Overall, we retrieved 30 transcriptomics datasets, produced through both DNA microarrays and RNA-Sequencing technologies, along with relative meta-data tables. After data collection, all the datasets 
+underwent meta-data curation and harmonisation, data quality check, and pre-processing with standardised procedures. Beside, data model was created in order to homogenise the phenotypic data enabling the comparability 
+across the datasets. In addition, for every study included in this data release we provide tables of differentially expressed genes and co-expression network models of IPF samples and healthy counterparts deriving from 
+both RNA-seq and DNA microarrays.
+
 ###Explanations for the codes###
 
 1. fastqc.sh

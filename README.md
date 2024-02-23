@@ -29,11 +29,11 @@ The pipeline goes in the following order below.
   
    -Creates a BAM file with the unique reads and sorts the unique reads. 
 
-7. featurecounts.R
+5. featurecounts.R
 
 	-Transcript quantification
 
-8. Contents in expression_matrices_and_DEG_result -folder
+6. Contents in expression_matrices_and_DEG_result -folder
 	
 	-Microarray
 		-Contains the probe annotation codes for the microarray datasets. Annotations are for ensembl gene id:s and gene Symbols. 
@@ -45,14 +45,15 @@ The pipeline goes in the following order below.
 		differential gene expression analysis with deseq2. The R programming required substantial manual effort, largely due to the inherent characteristics 
 		of the public data. As a precautionary  measure to ensure the accuracy of each step in the analytical process, the analysis included significant redundancy.
 
-9. Contents of combined_matrices -folder
-	-Contains the code for combining the expression matrices for ipf and healthy samples for each cell type and tissue and RNA-seq and Microarray.
+7. Contents of combined_matrices -folder
+   
+    -Contains the code for combining the expression matrices for ipf and healthy samples for each cell type and tissue and RNA-seq and Microarray.
 
-10. multi_studies_adjust.R
+8. multi_studies_adjust.R
    
 	-Pamr batch adjustment code for the combined matrices
 
-11. build_networks.R
+9. build_networks.R
     
     -Network inference code for the batch adjusted combined matrices
 

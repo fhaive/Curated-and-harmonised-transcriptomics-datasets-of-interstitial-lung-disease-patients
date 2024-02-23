@@ -58,5 +58,5 @@ The pipeline goes in the following order below:
 
 9. build_networks.R
     
-    -Network inference code for the batch adjusted combined matrices
+    -Network inference code for the batch adjusted combined matrices. Wrapper function for INfORM functions. 
 

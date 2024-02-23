@@ -38,7 +38,9 @@
 	-Contains the code for combining the expression matrices for ipf and healthy samples for each cell type and tissue and RNA-seq and Microarray.
 
 8. multi_studies_adjust.R
+   
 	-Pamr batch adjustment code for the combined matrices
 
-9. build_networks.R
+10. build_networks.R
+    
     -Network inference code for the batch adjusted combined matrices
